@@ -476,7 +476,7 @@ public final class Items {
     public static final SlimefunItemStack POWER_UNIT = new SlimefunItemStack(
         "POWER_UNIT",
         Material.GOLDEN_HOE,
-        "&電動工具把手"
+        "&7電動工具把手"
     );
 
     public static final SlimefunItemStack IRON_ITEM_CASING = new SlimefunItemStack(
