@@ -13,7 +13,7 @@ import org.bukkit.inventory.ItemStack;
 public class Thorium extends UnplaceableBlock implements Radioactive {
 
     private static final ItemStack thorium = new CustomItem(Material.PAPER, "&fHint!",
-        "&a&oMake sure to first GEO-Scan the chunk in which you are", "&a&omining to discover Thorium!");
+        "&a&o請確保對開採的區塊進行GEO-掃描", "&a&o來發現釷!");
 
     public Thorium() {
         super(Items.LITEXPANSION, Items.THORIUM, RecipeType.GEO_MINER, new ItemStack[] {

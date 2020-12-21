@@ -28,7 +28,7 @@ public class ManualMill extends MultiBlockMachine {
         new NamespacedKey(LiteXpansion.getInstance(), "manual_mill"),
         Items.MANUAL_MILL,
         "",
-        "&7Used to Forge Metals"
+        "&7用於鍛造金屬"
     );
 
     private static final ItemStack anvil = new ItemStack(Material.ANVIL);

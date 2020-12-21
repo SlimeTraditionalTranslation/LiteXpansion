@@ -61,7 +61,7 @@ public final class UUMatter {
             this.recipes.put(output, recipe);
             addUuMatterRecipe(output, recipe);
         }
-        LiteXpansion.getInstance().getLogger().log(Level.INFO, "Loaded {0} UU-Matter recipes", new Object[] {
+        LiteXpansion.getInstance().getLogger().log(Level.INFO, "載入 {0} UU-物質 配方", new Object[] {
             this.recipes.size()
         });
 

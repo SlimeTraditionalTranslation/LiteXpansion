@@ -1,79 +1,82 @@
-# LiteXpansion
-LiteXpansion is a Slimefun4 Addon that started with adding the use full items/machines from SlimeXpansion. This slowly is changing into an Industrial Craft 2 Addon.
+# 物理科技
+物理科技是Slimefun4的附加插件,首先添加了來自於SlimeXpansion的完整物品/機器. 這慢慢變成Industrial Craft 2的附加.
 
-## :world_map: Navigation
-* [Download](#floppy_disk-download)
-* [Contents](#contents)
-  * [Items](#card_index_dividers-items)
-  * [Machines](#electric_plug-machines)
-  * [Tools](#hammer_and_wrench-tools)
-  * [Weapons](#crossed_swords-weapons)
-  * [Armour](#shield-armour)
-  * [UU Matter](#brain-uu-matter)
+此為**非官方**版本, 請勿在該作者的問題追蹤內回報!
+[原專案連結](https://github.com/Slimefun-Addon-Community/LiteXpansion)
+## :world_map: 導航
+* [下載](#floppy_disk-下載)
+* [內容](#內容)
+  * [物品](#card_index_dividers-物品)
+  * [機器](#electric_plug-機器)
+  * [工具](#hammer_and_wrench-工具)
+  * [武器](#crossed_swords-武器)
+  * [裝備](#shield-裝備)
+  * [UU 物質](#brain-uu-物質)
 * [Discord](#computer-discord)
 
-## :floppy_disk: Download
-To download LiteXpansion please click here: [Download LiteXpansion](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
+## :floppy_disk: 下載
+繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/xMikux/LiteXpansion/master)<br>
+官方開發版: [開發版構建頁面](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
 
-**IMPORTANT: As mentioned before, you have to have Slimefun to use LiteXpansion. If you do not have Slimefun yet please go here: [Slimefun repository](https://github.com/Slimefun/Slimefun4). If you have problems with the download please go here: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
+**重要: 如前所述,你必須擁有Slimefun才能使用物理科技. 如果你沒有Slimefun,請到此處:[Slimefun 儲存庫](https://github.com/Slimefun/Slimefun4) [Slimefun 繁體翻譯版](https://github.com/xMikux/Slimefun4). 如果你在下載的時候遇到問題,請查看: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
 
 <p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/">
-    <img src="https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/badge.svg" alt="Build Server"/>
+  <a href="https://xmikux.github.io/builds/xMikux/LiteXpansion/master/">
+    <img src="https://xmikux.github.io/builds/xMikux/LiteXpansion/master/badge.svg" alt="構建伺服器"/>
   </a>
 </p>
 
-## Contents
-### :card_index_dividers: Items
-- Food Synthesizer - Keeps you fed with artificial food;
-- Mag Thor - An extremely durable alloy used;
-- Thorium - A radioactive alloy;
-- Mag Thor Dust - ; (W.I.P., doesn't have a function yet)
-- Thorium Dust - ; (W.I.P., doesn't have a function yet)
-- Scrap - Used to create UU-Matter;
-- UU-Matter - Used to create various other items;
-- Iridium - ; (W.I.P., doesn't have a function yet)
-- Iridium Plate - ; (W.I.P., doesn't have a function yet)
-- Refined Iron - An Ingot to create various other items; (W.I.P., doesn't have a function yet)
-- Machine Block - Used to create Machines; (W.I.P., doesn't have a function yet)
+## 內容
+### :card_index_dividers: 物品
+- 食品合成器 - 持續飽受人造食物;
+- 釷鎂合金 - 一個極耐用的合金;
+- 釷 - 放射性合金;
+- 釷粉 - ; (W.I.P., 還沒有功能)
+- 釷粉 - ; (W.I.P., 還沒有功能)
+- 廢料 - 用於製作UU-物質;
+- UU-物質 - 用於製作其他各種物品;
+- 銥 - ; (W.I.P., 還沒有功能)
+- 銥板 - ; (W.I.P., 還沒有功能)
+- 精煉鐵 - 一種錠來製作其他各種物品; (W.I.P., 還沒有功能)
+- 機械外殼 - 用於製作機器; (W.I.P., 還沒有功能)
 
-### :electric_plug: Machines
-- Scrap Machine - This machine creates Scrap from every item;
-- Mass Fabricator - Create UU-Matter from Scrap, "takes just a tiny bit of power";
+### :electric_plug: 機器
+- 物質回收機 - 此機器會從任何物品製作廢料;
+- 物質製作機 - 從廢料轉換成UU-物質, "只需要一點點的電力";
 
-### :hammer_and_wrench: Tools
-- Wrench - Allows you to remove machines without destroying them; (W.I.P., Doesn't have a function yet)
+### :hammer_and_wrench: 工具
+- 扳手 - 允許你在不手動破壞機器的情況下移除機器; (W.I.P., 還沒有功能)
 
-### :crossed_swords: Weapons
-- Nano Blade - An advanced piece of technology which can cut through organic tissue with ease;
+### :crossed_swords: 武器
+- 奈米刀 - 一項先進的技術可以輕鬆切開有機組織;
 
-### :shield: Armour
-- Electric Chestplate - Negates all the damage dealt to player.;
+### :shield: 裝備
+- 電磁胸甲 - 吸收所有傷害.;
 
-### :brain: UU Matter
-UU-Matter is a hard to create resource, it can be made in the Mass Fabricator with scrap. You can use UU-Matter to create many items such as grass blocks, glass, copper ingots, etc.
+### :brain: UU 物質
+UU-物質是一種難以製造的資源, 可以使用廢料在物質製作機內製造. 你可以使用UU-物質製作很多物品,像是 草地, 玻璃, 銅錠, 等等.
 
-Server admins are able to modify, add or remove UU-Matter recipes.
-#### :gear: Configuration
-To add, remove or change recipes you need to modify the `/plugins/LiteXpansion/uumatter.yml` file.
+伺服器管理者可以修改,添加或刪除UU-物質的配方.
+#### :gear: 配置
+要添加,刪除或更改配方, 你需要修改 `/plugins/LiteXpansion/uumatter.yml` 檔案.
 
-Under `recipes` you need to specify the output, this can be a [Material](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) or a Slimefun item ID (addons supported). If you want an amount more than one you can add a colon (`:`) and the amount. Then as a list you specify the recipe where space is nothing and `x` is UU-Matter.
+在 `recipes` 你需要指定輸出, 它可以是[材料](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) 或 Slimefun 物品ID (附加支持). 如果你想要一個以上的物品數量, 則可以添加一個冒號 (`:`) 合該數量. 然後在列表中指定配方, 空格為無, `x` 為 UU-物質.
 
-Here's an example where it generates 20 coal.
+這是一個產生20個煤炭例子.
 ```yaml
 recipes:
-  # Output item, colon (:) to indicate the amount
-  # Accepts Material (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) or Slimefun Item ID
+  # 輸出物品, 冒號 (:) 表示數量
+  # 接受材料 (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) 或 Slimefun 物品ID
   'COAL:20':
-    # Recipe, x = UU-Matter, space = nothing
+    # 配方, x = UU-物質, 空格 = 無
     - '  x'
     - 'x  '
     - '  x'
 ```
 
 ### :computer: Discord
-If you need to find a Slimefun item ID you can join the official Slimefun Discord by clicking the image below this text and doing `!item <name/ID>` in the `#bot-spam` channel.
-You can also generally chat about LiteXpansion in the `#litexpansion` channel.
+如果你需要找Slimefun物品ID, 你可以加入官方Slimefun Discord,點擊底下的徵標來加入伺服器,並在 `#bot-spam` 頻道內輸入 `!item <name/ID>`.
+你也可以在`#litexpansion`頻道中討論有關於LiteXpansion. **請使用英文**
 
 <p align="center">
   <a href="https://discord.gg/slimefun">
