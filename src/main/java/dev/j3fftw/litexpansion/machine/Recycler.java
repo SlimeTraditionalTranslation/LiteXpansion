@@ -1,8 +1,8 @@
 package dev.j3fftw.litexpansion.machine;
 
+import dev.j3fftw.extrautils.utils.Utils;
 import dev.j3fftw.litexpansion.Items;
 import dev.j3fftw.litexpansion.LiteXpansion;
-import dev.j3fftw.litexpansion.utils.Utils;
 import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
@@ -63,8 +63,6 @@ public class Recycler extends SlimefunItem implements InventoryBlock, EnergyNetC
             blockMenuPreset.addItem(PROGRESS_SLOT, new CustomItem(Material.DEAD_BUSH, "&7進度"));
             blockMenuPreset.addMenuClickHandler(PROGRESS_SLOT, ChestMenuUtils.getEmptyClickHandler());
         });
-
-        Utils.registerInventoryDrop(getId(), this);
     }
 
     @Override
