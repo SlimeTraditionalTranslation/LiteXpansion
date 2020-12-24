@@ -19,6 +19,7 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.SlimefunItemStack;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.cscorelib2.item.CustomItem;
+import org.apache.commons.lang.Validate;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -51,9 +52,9 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
 
         createPreset(this, type.getItem().getImmutableMeta().getDisplayName().orElse("&7太陽能板"),
             blockMenuPreset -> {
-                for (int i = 0; i < 9; i++)
+                for (int i = 0; i < 9; i++) {
                     blockMenuPreset.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
-
+                }
                 blockMenuPreset.addItem(PROGRESS_SLOT, generatingItem);
             });
     }
@@ -61,10 +62,13 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
     @Override
     public int getGeneratedOutput(@Nonnull Location l, @Nonnull Config data) {
         @Nullable final BlockMenu inv = BlockStorage.getInventory(l);
-        if (inv == null) return 0;
+        if (inv == null) {
+            return 0;
+        }
 
         final int stored = getCharge(l);
         final boolean canGenerate = stored < getCapacity();
+        Validate.notNull(l.getWorld());
         final int rate = canGenerate ? getGeneratingAmount(inv.getBlock(), l.getWorld()) : 0;
 
         String generationType = "&4未知";
@@ -85,7 +89,7 @@ public class AdvancedSolarPanel extends SlimefunItem implements InventoryBlock, 
                     "", "&b效率: " + generationType,
                     "&7發電量在 &6" + Utils.powerFormatAndFadeDecimals(Utils.perTickToPerSecond(rate)) + " J/s " +
                         "&8(" + rate + " J/t)",
-                    "", "&7儲存: &6" + Utils.powerFormatAndFadeDecimals(stored + rate) + " J"
+                    "", "&7儲存: &6" + Utils.powerFormatAndFadeDecimals((double) stored + rate) + " J"
                 )
                     : new CustomItem(Material.ORANGE_STAINED_GLASS_PANE, "&c未發電",
                     "", "&7發電機已達到最大儲存容量.",

@@ -67,7 +67,7 @@
         <dependency>
             <groupId>com.github.xmikux</groupId>
             <artifactId>extrautils</artifactId>
-            <version>736a777</version>
+            <version>8b05a2a</version>
         </dependency>
     </dependencies>
 
