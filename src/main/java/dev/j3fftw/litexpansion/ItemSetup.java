@@ -11,6 +11,7 @@ import dev.j3fftw.litexpansion.items.MiningDrill;
 import dev.j3fftw.litexpansion.items.Thorium;
 import dev.j3fftw.litexpansion.machine.AdvancedSolarPanel;
 import dev.j3fftw.litexpansion.machine.Generator;
+import dev.j3fftw.litexpansion.machine.Macerator;
 import dev.j3fftw.litexpansion.machine.ManualMill;
 import dev.j3fftw.litexpansion.machine.MassFabricator;
 import dev.j3fftw.litexpansion.machine.MetalForge;
@@ -77,6 +78,7 @@ final class ItemSetup {
         new MultiFunctionalStorageUnit().register(LiteXpansion.getInstance());
         new Generator().register(LiteXpansion.getInstance());
         new ManualMill().register(LiteXpansion.getInstance());
+        new Macerator().register(LiteXpansion.getInstance());
     }
 
     //Disable when SlimyTreeTaps exists
@@ -198,6 +200,26 @@ final class ItemSetup {
         // Refined crap
         registerNonPlaceableItem(Items.REFINED_IRON, RefinedSmeltery.RECIPE_TYPE,
             new ItemStack(Material.IRON_INGOT)
+        );
+
+        // Dust smelting
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.LAPIS_DUST},
+            new ItemStack(Material.LAPIS_LAZULI)
+        );
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.REDSTONE_DUST},
+            new ItemStack(Material.REDSTONE)
+        );
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.DIAMOND_DUST},
+            new ItemStack(Material.DIAMOND)
+        );
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.EMERALD_DUST},
+            new ItemStack(Material.EMERALD_ORE)
+        );
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.QUARTZ_DUST},
+            new ItemStack(Material.QUARTZ)
+        );
+        RecipeType.SMELTERY.register(new ItemStack[] {Items.ANCIENT_DEBRIS_DUST},
+            new ItemStack(Material.NETHERITE_INGOT)
         );
 
         // Resources

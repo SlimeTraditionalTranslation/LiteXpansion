@@ -328,6 +328,11 @@ public final class Items {
         LoreBuilderDynamic.powerBuffer(RubberSynthesizer.CAPACITY),
         LoreBuilderDynamic.powerPerTick(RubberSynthesizer.ENERGY_CONSUMPTION)
     );
+    public static final SlimefunItemStack MACERATOR = new SlimefunItemStack(
+        "MACERATOR",
+        Material.IRON_BLOCK,
+        "&7研磨機"
+    );
     //// Solar panels
     public static final SlimefunItemStack ADVANCED_SOLAR_PANEL = new SlimefunItemStack(
         "ADVANCED_SOLAR_PANEL",
@@ -483,6 +488,39 @@ public final class Items {
         "IRON_ITEM_CASING",
         Material.GRAY_CARPET,
         "&7鐵質外殼"
+    );
+
+    public static final SlimefunItemStack LAPIS_DUST = new SlimefunItemStack(
+        "LAPIS_DUST",
+        Material.PURPLE_DYE,
+        "&7青金石粉"
+    );
+
+    public static final SlimefunItemStack REDSTONE_DUST = new SlimefunItemStack(
+        "REDSTONE_DUST",
+        Material.RED_DYE,
+        "&7紅石粉"
+    );
+
+    public static final SlimefunItemStack DIAMOND_DUST = new SlimefunItemStack(
+        "DIAMOND_DUST",
+        Material.CYAN_DYE,
+        "&7鑽石粉"
+    );
+    public static final SlimefunItemStack EMERALD_DUST = new SlimefunItemStack(
+        "EMERALD_DUST",
+        Material.LIME_DYE,
+        "&7綠寶石粉"
+    );
+    public static final SlimefunItemStack QUARTZ_DUST = new SlimefunItemStack(
+        "QUARTZ_DUST",
+        Material.WHITE_DYE,
+        "&7石英粉"
+    );
+    public static final SlimefunItemStack ANCIENT_DEBRIS_DUST = new SlimefunItemStack(
+        "ANCIENT_DEBRIS_DUST",
+        Material.BROWN_DYE,
+        "&7遠古遺骸粉"
     );
 
     private static final Enchantment glowEnchant = Enchantment.getByKey(Constants.GLOW_ENCHANT);

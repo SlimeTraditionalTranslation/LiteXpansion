@@ -208,8 +208,11 @@ public class Events implements Listener {
 
         final MiningDrill diamondDrill = (MiningDrill) SlimefunItem.getByID(Items.DIAMOND_DRILL.getItemId());
 
+
+
         Validate.notNull(diamondDrill, "Can not be null");
         if ((diamondDrill.isItem(e.getItem())
+
             && (drillableBlocks.contains(blockType)
             || blockType == Material.OBSIDIAN
             || blockType.toString().endsWith("_ORE")))
