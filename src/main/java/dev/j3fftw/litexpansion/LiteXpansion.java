@@ -18,6 +18,7 @@ import org.bukkit.Location;
 import org.bukkit.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
@@ -46,7 +47,7 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
 
         registerEnchantments();
 
-        changeSfValues();
+        getServer().getScheduler().runTask(this, this::changeSfValues);
 
         ItemSetup.INSTANCE.init();
 
