@@ -15,14 +15,14 @@
 * [Discord](#computer-discord)
 
 ## :floppy_disk: 下載
-繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/xMikux/LiteXpansion/master)<br>
+繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master)<br>
 官方開發版: [開發版構建頁面](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
 
 **重要: 如前所述,你必須擁有Slimefun才能使用物理科技. 如果你沒有Slimefun,請到此處:[Slimefun 儲存庫](https://github.com/Slimefun/Slimefun4) [Slimefun 繁體翻譯版](https://github.com/xMikux/Slimefun4). 如果你在下載的時候遇到問題,請查看: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
 
 <p align="center">
-  <a href="https://xmikux.github.io/builds/xMikux/LiteXpansion/master/">
-    <img src="https://xmikux.github.io/builds/xMikux/LiteXpansion/master/badge.svg" alt="構建伺服器"/>
+  <a href="https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/">
+    <img src="https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/badge.svg" alt="構建伺服器"/>
   </a>
 </p>
 
