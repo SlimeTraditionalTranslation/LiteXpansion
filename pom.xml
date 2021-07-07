@@ -54,7 +54,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.xmikux</groupId>
+            <groupId>com.github.SlimeTraditionalTranslation</groupId>
             <artifactId>extrautils</artifactId>
             <version>dd6cebb</version>
         </dependency>
