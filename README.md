@@ -20,6 +20,7 @@
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
 | [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master) | [![Build Status](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/badge.svg)](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master) |
+
 **重要: 如前所述,你必須擁有Slimefun才能使用物理科技. 如果你沒有Slimefun,請到此處:[Slimefun 儲存庫](https://github.com/Slimefun/Slimefun4) [Slimefun 繁體翻譯版](https://github.com/xMikux/Slimefun4). <br>
 如果你在下載的時候遇到問題,請查看: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
 
