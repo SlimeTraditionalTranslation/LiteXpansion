@@ -4,4 +4,6 @@ rules:
     upstream: Slimefun-Addon-Community:master
     mergeMethod: merge
     conflictReviewers:
-      - SlimeTraditionalTranslation/Translate-Maintainer
+      - weiii-joe
+      - xhuanfux
+      - xMikux

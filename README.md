@@ -1,8 +1,9 @@
 # 物理科技
 物理科技是Slimefun4的附加插件,首先添加了來自於SlimeXpansion的完整物品/機器. 這慢慢變成Industrial Craft 2的附加.
 
-此為**非官方**版本, 請勿在該作者的問題追蹤內回報!
-[原專案連結](https://github.com/Slimefun-Addon-Community/LiteXpansion)
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/Slimefun-Addon-Community/LiteXpansion) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+
 ## :world_map: 導航
 * [下載](#floppy_disk-下載)
 * [內容](#內容)
@@ -15,16 +16,13 @@
 * [Discord](#computer-discord)
 
 ## :floppy_disk: 下載
-繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master)<br>
-官方開發版: [開發版構建頁面](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/)
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master) | [![Build Status](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master/badge.svg)](https://thebusybiscuit.github.io/builds/J3fftw1/LiteXpansion/master) |
 
-**重要: 如前所述,你必須擁有Slimefun才能使用物理科技. 如果你沒有Slimefun,請到此處:[Slimefun 儲存庫](https://github.com/Slimefun/Slimefun4) [Slimefun 繁體翻譯版](https://github.com/xMikux/Slimefun4). 如果你在下載的時候遇到問題,請查看: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
-
-<p align="center">
-  <a href="https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/">
-    <img src="https://xmikux.github.io/builds/SlimeTraditionalTranslation/LiteXpansion/master/badge.svg" alt="構建伺服器"/>
-  </a>
-</p>
+**重要: 如前所述,你必須擁有Slimefun才能使用物理科技. 如果你沒有Slimefun,請到此處:[Slimefun 儲存庫](https://github.com/Slimefun/Slimefun4) [Slimefun 繁體翻譯版](https://github.com/xMikux/Slimefun4). <br>
+如果你在下載的時候遇到問題,請查看: [Slimefun Wiki](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun)**
 
 ## 內容
 ### :card_index_dividers: 物品
