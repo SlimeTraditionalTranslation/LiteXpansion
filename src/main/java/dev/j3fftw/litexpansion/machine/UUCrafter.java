@@ -83,11 +83,16 @@ public class UUCrafter extends SlimefunItem implements InventoryBlock, EnergyNet
 
     private void tick(Block block) {
         @Nullable final BlockMenu blockMenu = BlockStorage.getInventory(block);
+        final Location location = block.getLocation();
         if (blockMenu == null) {
             return;
         }
 
-        if (!whatIsRunning.get(block.getLocation())) {
+        if (this.getCharge(location) < getDefaultEnergyConsumption()) {
+            return;
+        }
+
+        if (!whatIsRunning.get(location)) {
             return;
         }
 
@@ -113,6 +118,7 @@ public class UUCrafter extends SlimefunItem implements InventoryBlock, EnergyNet
                     && input.getAmount() >= amount
                     && blockMenu.fits(output, OUTPUT_SLOT)
                 ) {
+                    this.removeCharge(location, getDefaultEnergyConsumption());
                     blockMenu.pushItem(output, OUTPUT_SLOT);
                     blockMenu.consumeItem(INPUT_SLOT, amount);
                 }
