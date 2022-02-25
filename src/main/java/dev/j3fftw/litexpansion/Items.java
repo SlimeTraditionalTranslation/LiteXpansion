@@ -102,7 +102,7 @@ public final class Items {
         "",
         "&7> &e右鍵 &7- 複製節點設定",
         "&7> &e左鍵  &7- 套用節點設定",
-        "&7> &eShift+右鍵 &7- 清除節點設定"
+        "&7> &eShift+右鍵 &7- 清除節點配置器"
     );
     //endregion
 
