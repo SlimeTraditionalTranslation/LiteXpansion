@@ -57,8 +57,7 @@ public abstract class CraftingMultiBlock extends MultiBlockMachine {
             return;
         }
 
-        if (state instanceof Dispenser) {
-            Dispenser disp = (Dispenser) state;
+        if (state instanceof Dispenser disp) {
             Inventory inv = disp.getInventory();
             List<ItemStack[]> inputs = RecipeType.getRecipeInputList(this);
 
@@ -99,7 +98,8 @@ public abstract class CraftingMultiBlock extends MultiBlockMachine {
                 final Block specialBlock = getSpecialBlock(dispenser);
                 if (specialBlock != null) {
                     specialBlock.setType(Material.AIR);
-                    specialBlock.getWorld().spawnParticle(Particle.PORTAL, specialBlock.getLocation(), 4, 0.5, 0.5, 0.5);
+                    specialBlock.getWorld().spawnParticle(Particle.PORTAL, specialBlock.getLocation(), 4, 0.5, 0.5,
+                        0.5);
                 }
             }
         } else {
