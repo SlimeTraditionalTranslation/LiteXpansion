@@ -6,10 +6,10 @@ import dev.j3fftw.litexpansion.ticker.PassiveElectricRemovalTicker;
 import dev.j3fftw.litexpansion.utils.Constants;
 import dev.j3fftw.litexpansion.utils.Reflections;
 import dev.j3fftw.litexpansion.uumatter.UUMatter;
+import io.github.bakedlibs.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-//import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 //import org.bstats.MetricsBase;
 //import org.bstats.bukkit.Metrics;
 import org.bukkit.NamespacedKey;
@@ -36,9 +36,9 @@ public class LiteXpansion extends JavaPlugin implements SlimefunAddon {
         //final Metrics metrics = new Metrics(this, 7111);
         //metricsService.setup(metrics);
 
-        /*if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "J3fftw1/LiteXpansion/master").start();
-        }*/
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("EFI - ")) {
+            new GitHubBuildsUpdater(this, getFile(), "SlimeTraditionalTranslation/LiteXpansion/master").start();
+        }
 
         registerEnchantments();
 

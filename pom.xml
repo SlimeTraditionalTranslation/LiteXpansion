@@ -58,6 +58,12 @@
             <artifactId>extrautils</artifactId>
             <version>33c4e0d</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.SlimeTraditionalTranslation</groupId>
+            <artifactId>dough</artifactId>
+            <version>7142669</version>
+        </dependency>
     </dependencies>
 
     <build>
